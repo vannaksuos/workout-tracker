@@ -21,7 +21,7 @@ router.put('/api/workouts/:id', function(req, res) {
 })
 
 router.get(`/api/workouts/range`, function(req, res) {
-    db.Workout.find({}).sort({ day: 1 }).limit(7).then(function(workouts)  {
+    db.Workout.find({}).sort({ day: -1 }).limit(7).then(function(workouts)  {
         res.json(workouts)
     })
 })
