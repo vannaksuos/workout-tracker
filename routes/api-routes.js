@@ -9,7 +9,7 @@ router.get('/api/workouts', function (req, res) {
 })
 
 router.post('/api/workouts', function (req, res) {
-    db.Workout.create({}).then(function(workouts){
+    db.Workout.create({}).then(function(workouts) {
         res.json(workouts)
     })
 })
