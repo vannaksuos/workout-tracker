@@ -9,7 +9,7 @@
 https://vannaksuos.github.io/workout-tracker/
 
 # Deploy Heroku link
-not deployed on heroku
+https://git.heroku.com/dry-cove-71806.git
 
 # Title: Workout Tracker
 
@@ -24,6 +24,8 @@ As a user, I want to be able to view create and track daily workouts. I want to 
 
 # Installation
 npm install
+<BR>
+npm run seed
 
 # Usage
 The user should be able to:
