@@ -16,7 +16,7 @@ const workOutSchema = new Schema({
         duration: {
             type: Number
         },
-        Weight: {
+        weight: {
             type: Number
         },
         reps: {
